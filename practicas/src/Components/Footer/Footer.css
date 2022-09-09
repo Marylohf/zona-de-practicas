@@ -1,0 +1,10 @@
+.cont-footer {
+    width: 100vw;
+    background-color: deepskyblue;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}

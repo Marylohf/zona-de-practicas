@@ -1,0 +1,48 @@
+nav {
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(59,3,191);
+    background: linear-gradient(39deg, rgba(59,3,191,1) 18%, rgba(82,255,0,1) 100%);
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: 'Rock Salt', cursive;
+    color: plum;
+}
+
+.logo-home img {
+    width: 100px;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    transition: 0.5s;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 2em;
+    color: plum;
+    font-family: 'Rock Salt', cursive;
+}
+
+li:hover {
+    transform: scale(1.5);
+}
+
+.menu-home {
+    width: 100vw;
+}
+
+.menu-home ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
